@@ -1,0 +1,57 @@
+.gallery{
+    .mySwiper2  {
+        width: 100%;
+        height: 400px;
+        .width-slide
+        {
+          width: 70%;
+          overflow: hidden;
+          border-radius: 5px;
+        }
+      }
+      .videos{
+          .container{
+              width: 100%;
+              text-align: center;
+              padding: 5px;
+              .row{
+                  display: flex;
+                  justify-content: center;
+                  width: 100%;
+                  background: rgba($color: $bg_color_1, $alpha: .1);
+                  padding: 40px 0;
+                  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, .2);
+                  border-radius: 4px;
+                  margin: 0 auto;
+                  .card-video{
+                      width: max-content;
+                      margin: 20px auto;
+                  }
+              }
+          }
+      }
+}
+@media (max-width:576px) {
+    .gallery{
+        .mySwiper2  {
+            height: 300px;
+            .width-slide
+            {
+              width: 80%;
+            }
+          }
+          .videos{
+            .container{
+                .row{
+                    .card-video{
+                        width: max-content;
+                        margin: 20px auto;
+                        video{
+                            width: 200px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

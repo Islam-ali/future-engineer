@@ -1,0 +1,155 @@
+@import '../variables/variables.scss';
+.About{
+    .header-bage{
+        background:linear-gradient(to right ,rgba(5,75,117,.8),rgba(14,17,48,.8)), url('../../images/cover-3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .why-us{
+        .container{
+            .content{
+                text-align: center;
+                width: 100%;
+                padding: 10px;
+                p{
+                    font-weight: 400px;
+                }
+            }
+        }
+    }
+    .our-cards{
+        background: url('../../images/bg-abstract.png'),url('../../images/bg-abstract-1.png');
+        background-position: left , right;
+        background-repeat: no-repeat;
+        .container{
+            .container-card{
+                width: 800px;
+                margin: 0 auto;
+                .row{
+                    display: flex;
+                    justify-content: center;
+                        .card-our-cards{
+                            width: 350px;
+                            overflow: hidden;
+                            margin: 25px;
+                            text-align: center;
+                            padding: 30px 10px;
+                            background: linear-gradient( to bottom ,#fff,rgba($bg_color_1, $alpha: .2)) ;
+                            img{
+                                width: 150px;
+                            }
+                            h4{
+                                margin: 10px 0;
+                                font-family: $font_header;
+                                letter-spacing: 2px;
+                                color: $bg_color_1;
+                            }
+                            p{
+                                font-weight: 600;
+                                color: #666;
+                            }
+                        }
+                }
+            }
+        }
+    }
+    .develop-kids{
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+            .bg-develop-kids{
+                background:linear-gradient(to right ,rgba(5,75,117,.8),rgba(14,17,48,.8)), url('../../images/cover-44.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                padding: 80px 0;
+                .container{
+                    .row{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 50px 10px;
+                    .card-develop-kids{
+                        margin: 20px;
+                        text-align: center;
+                        width: max-content;
+                        img{
+                            width: 100px;
+                            margin-bottom: 8px;
+                        }
+                        p{
+                            font-size: 22px;
+                            font-weight: 600;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .services{
+        .container{
+            background: rgba(5,75,117,.1);
+            padding: 40px 0;
+            box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, .2);
+            border-radius: 4px;
+            .header-service{
+                text-align: center;
+                padding: 0 20px;
+                p{
+                    font-size: 20px;
+                    font-weight: 800;
+                    color: #555;
+                }
+            }
+            .row{
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                padding: 10px;
+                .card-service{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 46%;
+                    margin: 10px;
+                    background: #fff ;
+                    text-align: center;
+                        img{
+                            width: 100px;
+                            margin: 0 auto;
+                        }
+                        h4{
+                            margin: 10px 0;
+                            font-weight: 600;
+                        }
+                        p{
+                            color: #777;
+                        }
+                    }
+            }
+        }
+    }
+}
+@media (max-width:992px) {
+    .container-card{
+        width: 100% !important;
+        padding: 5px !important;
+    }
+    .services{
+        .row{
+            .card-service{
+                width: 100% !important;
+                margin: 20px 0 !important;
+            }
+        }
+    }
+
+}
+@media (max-width:400px) {
+    .card-our-cards{
+        width: 96% !important;
+    }
+}

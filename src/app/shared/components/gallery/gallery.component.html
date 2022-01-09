@@ -1,0 +1,52 @@
+<section class="gallery">
+    <app-header [title]="data?.title"></app-header>
+    <swiper
+      [effect]="'coverflow'"
+      [grabCursor]="true"
+      [centeredSlides]="true"
+      [slidesPerView]="'auto'"
+      [loop]="true"
+      [loopFillGroupWithBlank]="true"
+      [coverflowEffect]="{
+        rotate: 50,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true
+      }"
+      [autoplay]="{
+        delay: 2000,
+        disableOnInteraction: false
+      }"
+      class="mySwiper2 py-5"
+    >
+      <ng-template
+        swiperSlide
+        class="width-slide h-100 p-0"
+        *ngFor="let item of data?.caption; index as index"
+      >
+        <div class="h-100 w-100 image" >
+          <img
+            class="img-carousel cursor-pointer h-100 w-100"
+            [src]="'../../../../assets/images/gallery/'+item.img"
+            [alt]="item.img"
+          />
+        </div>
+      </ng-template>
+    </swiper>
+    <section class="videos">
+      <div class="container">
+        <h3 class="i-h3 i-border-bottom-h  wow animate__animated animate__pulse">{{data?.title_videos | translate}}</h3>
+        <div class="row">
+          <div class="card-video  wow animate__animated animate__fadeInUp" *ngFor="let item of data?.videos">
+            <video width="320" height="240" controls>
+              <source [src]="'../../../../assets/images/gallery/videos/'+item.video" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="images-gallery my-4">
+      <app-images-gallery></app-images-gallery>
+    </section>
+  </section>

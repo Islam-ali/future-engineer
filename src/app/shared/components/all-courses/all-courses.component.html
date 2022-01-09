@@ -1,0 +1,22 @@
+<section class="all-courses">
+    <div class="container">
+        <div class="row">
+            <div class="i-card i-box-shadow card-course wow animate__animated  animate__fadeInUp" *ngFor="let item of data | slice : 0 : n">
+                <div class="image">
+                    <img src="../../../../assets/images/example.png" alt="">
+                </div>
+                <div class="content">
+                    <h4>{{item?.name}}</h4>
+                    <p>{{item?.description}}</p>
+                    <div class="duration">
+                        <i [class]="item?.duration?.icon"></i>
+                        <span>{{item?.duration?.info}}</span>
+                    </div>
+                    <div class="btn-card">
+                        <button class="i-btn" [routerLink]="[item?.name]">{{'data.courses.btn_card' | translate}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

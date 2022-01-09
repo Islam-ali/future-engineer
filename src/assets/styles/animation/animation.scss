@@ -1,0 +1,21 @@
+// translate Y
+@keyframes translate-Y {
+
+    from { transform: translateY(50%); }
+    to { transform: translateY(-50%); }
+}
+// move 
+@keyframes move {
+    from{
+        left: calc(50% - 60px);
+    }
+    to{
+        left: calc(50% + 20px);
+    }
+}
+// wave
+
+@keyframes wave {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}

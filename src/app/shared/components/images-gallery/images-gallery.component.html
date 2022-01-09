@@ -1,0 +1,32 @@
+<div class="images">
+    <div class="container">
+      <h3 class="i-h3 i-border-bottom-h">{{data?.title_images | translate}}</h3>
+      <!-- <div class="category">
+        <li *ngFor="let cat of data?.category" class=" wow animate__animated animate__fadeInUp " [class]="btn_active == cat.name ? 'i-active':''" (click)="filtterImg(cat.name);" >{{cat.name}}</li>
+      </div> -->
+      <div class="box-masonry">
+        <ngx-masonry>
+          <div class="masonry-item" ngxMasonryItem *ngFor="let item of data?.images; index as index;">
+           <img (click)="open(index)" [src]="'../../../../assets/images/gallery/'+item.img" [alt]="item.img">
+         </div>
+        </ngx-masonry>
+      </div>
+    </div>
+</div>
+
+<div dir="ltr" class="light-box" [style.display]="toggle_btn ? 'block':'none'">
+  <div class="container">
+    <img *ngIf="currentImg >= 0" [src]="'../../../../assets/images/gallery/'+data?.images[currentImg]?.img" [alt]="data?.images[currentImg]?.img">
+    <div class="btn-prev-next">
+      <button class="btn-prev" (click)="prev()" [disabled]="currentImg == 0">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="btn-next" (click)="next()" [disabled]="currentImg >= 8">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="close" (click)="close()">
+      <i class="fas fa-times"></i>
+  </div>
+  </div>
+</div>

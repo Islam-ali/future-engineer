@@ -1,0 +1,40 @@
+<section class="details-course">
+    <app-header [title]="data?.name"></app-header>
+    <section class="details py-5">
+        <div class="container">
+            <div class="row">
+                <div class="img-details wow animate__animated  animate__zoomIn animate__slow">
+                    <img src="../../../../assets/images/example.png" alt="">
+                </div>
+                <div class="content-details">
+                    <div class="i-card card-content-details wow animate__animated  animate__zoomIn animate__slow" *ngFor="let item of data?.details">
+                        <i [class]="item.icon"></i>
+                        <p class="p-data">{{item.data}}</p>
+                        <p class="p-info">{{item.info}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="objectives">
+        <div class="container">
+            <div class="content-objectives i-card">
+                <h3 style="width: max-content;"class="i-h3 i-border-bottom-h wow animate__animated animate__pulse mx-auto">{{data?.leaning_objectives?.name | translate}}</h3>
+                <ul>
+                    <li class="wow animate__animated animate__fadeInUp" *ngFor="let item of data?.leaning_objectives?.lists">
+                        <div>
+                            <p>{{item.list}} </p>
+                            <ul *ngIf="item.details_list">
+                                <li *ngFor="let list of item.details_list">
+                                    <div>
+                                       <p>{{list.text}}</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</section>

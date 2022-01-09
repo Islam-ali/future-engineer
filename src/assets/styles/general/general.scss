@@ -1,0 +1,172 @@
+body
+{
+    box-sizing: border-box;
+}
+*
+{
+    transition: .3s all;
+    box-sizing: border-box;
+}
+// active  ***************************
+.active{
+    border-bottom: 2px solid #fff !important;
+}
+// space top *****************
+.space-nav{
+    padding-top: 70px;
+}
+// background RGBA    ***************
+.i-bg-color-rgba{
+    background: rgba($bg_color_1, $alpha: .9) ;
+}
+// card *****************
+.i-card{
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, .2);
+    padding: 10px;
+    border-radius: 4px;
+}
+.i-card-hover:hover{
+    transform: translateY(-10px);
+}
+// button *******************
+.i-btn{
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid $bg_color_1;
+    background: none;
+    color: $bg_color_1;
+}
+.i-btn:hover{
+    background:  linear-gradient( to right , $bg_color_1,$bg_color_2);
+    border: none;
+    color: #fff;
+}
+// button basic
+.i-btn-basic{
+    background:  linear-gradient( to right , $bg_color_1,$bg_color_2);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.i-btn-basic:hover{
+    box-shadow: .5px .5px 10px $bg_color_1 ;
+}
+// header h3
+.i-h3{
+    font-family: $font_header;
+        color: $bg_color_1;
+        width: 100%;
+        padding: 15px 0;
+        position: relative;
+        margin-bottom: 10px;
+}
+// border bottom h3 before
+.i-border-bottom-h:before{
+    content: "";
+    position: absolute;
+    left: calc(50% - 60px);
+    bottom: 0;
+    width: 120px;
+    height: 2px;
+    background: #aaa;
+}
+.i-border-bottom-h:after{
+    content: "";
+    position: absolute;
+    left: calc(50% - 20px);
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background: $bg_color_1;
+    animation: move infinite 1.5s alternate;
+}
+.i-box-shadow:hover{
+    transform: scale(1.03,1.03);
+    box-shadow: #999 1px 1px 10px;
+}
+// color pragraph 
+.i-p-color{
+    color: #ddd;
+}
+// lightbox Overlay **************
+.lightboxOverlay{
+    background-color: $bg_color_1;
+}
+// active list 
+.i-active{
+    background: rgba($bg_color_1, $alpha: .3) !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 6px 0 rgba($bg_color_1, $alpha: .3) !important;
+}
+// delay ***********
+.i-delay-3ms
+{
+    animation-delay: .3s;
+}
+.i-delay-5ms
+{
+    animation-delay: .5s;
+}.i-delay-7ms
+{
+    animation-delay: .7s;
+}.i-delay-9ms
+{
+    animation-delay: .9s;
+}
+.i-delay-1s
+{
+    animation-delay: 1s;
+}
+// wave *****************************
+.i-wave-top{
+    height: 100px; /* change the height of the waves here */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    transform: rotateX(180deg);
+    direction: ltr;
+    .wave {
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='rgb(255,255, 255)'/%3E%3C/svg%3E");
+        position: absolute;
+        bottom: 0;
+        width: 8000%;
+        height: 100%;
+        transform: translate3d(0, 0, 0);
+        margin: 0;
+        animation: wave 400s alternate infinite;
+        padding: 0;
+      }
+  }
+.i-wave-bottom {
+    height: 100px; /* change the height of the waves here */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    direction: ltr;
+    .wave {
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='rgb(255,255, 255)'/%3E%3C/svg%3E");
+        position: absolute;
+        bottom: 0;
+        width: 8000%;
+        height: 100%;
+        transform: translate3d(0, 0, 0);
+        margin: 0;
+        animation: wave 400s linear reverse infinite;
+        padding: 0;
+      }
+  }
+
+
+
+
+

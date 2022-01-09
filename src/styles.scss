@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../src/assets/styles/index.scss';
+body{
+    overflow-y: hidden;
+}
+::-webkit-scrollbar{
+    background: #CCC;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient( to top ,#aaa,rgba($bg_color_1, $alpha: .8)) ;
+    border-radius: 20px;
+
+}

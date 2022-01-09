@@ -1,0 +1,439 @@
+{
+    "data": {
+        "home": {
+            "title": "مهندسين المستقبل",
+            "link": [
+                "الرئسيه",
+                "من نحن",
+                "الدورات",
+                "المعرض"
+            ],
+            "description": "أكاديمية ديسكفري للعلوم والتكنولوجيا تعرف الأطفال على الجوانب الممتعة للعلوم والتكنولوجيا والهندسة والفن والرياضيات على استعداد لمعرفة المزيد عن برامجنا في أكاديمية ديسكفري؟",
+            "btn_start": "ابداء الان",
+            "landmarks": [
+                {
+                    "icon": "students.png",
+                    "name_mark": "الأطفال المدربون",
+                    "number_mark": "+1000"
+                },
+                {
+                    "icon": "growth.png",
+                    "name_mark": "معدل نجاح الطالب",
+                    "number_mark": "93%"
+                },
+                {
+                    "icon": "experience.png",
+                    "name_mark": "سنوات الخبرة",
+                    "number_mark": "+3"
+                },
+                {
+                    "icon": "stars.png",
+                    "name_mark": "تصنيف من الآباء",
+                    "number_mark": "4.7/5.0"
+                }
+            ],
+            "includes": {
+                "pragraph": "يتم تضمين جميع ما يلي دون أي تكلفة إضافية.",
+                "title": "# 1 البرنامج الأكثر شمولا لنجاح الطالب الخاص بك!",
+                "description": "يأتي برنامج مهندس المستقبل مع كل ما يحتاجه طفلك ليكون ناجحا في تعلم البرمجة.",
+                "details": [
+                    {
+                        "icon": "fas fa-calendar-check",
+                        "text": "منهج منظم وشامل"
+                    },
+                    {
+                        "icon": "fas fa-medal",
+                        "text": "شهادة الدورة الفردية"
+                    },
+                    {
+                        "icon": "fas fa-video",
+                        "text": "تسجيلات فيديو لكل فئة"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "الشرائح القابلة للتنزيل لكل فئة"
+                    },
+                    {
+                        "icon": "fas fa-chalkboard-teacher",
+                        "text": "معلمون مؤهلون تأهيلا عاليا و ذوي خبرة"
+                    },
+                    {
+                        "icon": "fas fa-tv",
+                        "text": "المراسلة المباشرة مع المعلمين"
+                    },
+                    {
+                        "icon": "fas fa-life-ring",
+                        "text": "مساعدة الواجبات المنزلية اليومية"
+                    },
+                    {
+                        "icon": "fas fa-tasks",
+                        "text": "التقرير المرحلي الأسبوعي والتنبيهات"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "الشرائح القابلة للتنزيل لكل فئة"
+                    },
+                    {
+                        "icon": "fas fa-graduation-cap",
+                        "text": "مجتمع الطلاب الداعم عبر الإنترنت"
+                    }
+                ]
+            }
+        },
+        "about": {
+            "title": "من نحن",
+            "description": "أكاديمية ديسكفري للعلوم والتكنولوجيا هي شركة تعليمية تسعى لبناء جيل قادر على الإبداع والابتكار في العلوم والتكنولوجيا والهندسة والرياضيات والعلوم التطبيقية. فهو يساعد على اكتشاف مواهبهم وتطوير قدراتهم في هذا المجال.",
+            "btn_more_about": "المزيد عنا",
+            "why_us": {
+                "title": "ما هو مهندس المستقبل",
+                "description": "أكاديمية ديسكفري للعلوم والتكنولوجيا هي شركة تعليمية تسعى لبناء جيل قادر على الإبداع والابتكار في العلوم والتكنولوجيا والهندسة والرياضيات والعلوم التطبيقية. فهو يساعد على اكتشاف مواهبهم وتطوير قدراتهم في هذا المجال.أكاديمية ديسكفري للعلوم والتكنولوجيا هي شركة تعليمية تسعى لبناء جيل قادر على الإبداع والابتكار في العلوم والتكنولوجيا والهندسة والرياضيات والعلوم التطبيقية. فهو يساعد على اكتشاف مواهبهم وتطوير قدراتهم في هذا المجال."
+            },
+            "our_card": [
+                {
+                    "title": "رؤيتنا",
+                    "image": "vission.png",
+                    "description": "إنشاء شبكة محلية من أكاديميات التعلم الناجحة التي تزود الأجيال الجديدة ببرامج مبتكرة جذابة في الهندسة والعلوم والتكنولوجيا والرياضيات."
+                },
+                {
+                    "title": "مهمتنا",
+                    "image": "mission.png",
+                    "description": "نحن نعمل على تمكين الأجيال الشابة من استكشاف مفاهيم الهندسة والتكنولوجيا والعلوم والرياضيات بشكل طبيعي، بطريقة جذابة وممتعة وبيئة آمنة ومريحة لمساعدتهم على إظهار مواهبهم وتطوير قدراتهم في تلك المجالات."
+                }
+            ],
+            "develop_kids": {
+                "title": "كيف نطور الأطفال؟",
+                "details": [
+                    {
+                        "icon": "teacher.png",
+                        "name": "المحاضرات"
+                    },
+                    {
+                        "icon": "approve.png",
+                        "name": "المهام"
+                    },
+                    {
+                        "icon": "quizzes.png",
+                        "name": "مسابقات"
+                    },
+                    {
+                        "icon": "certificate.png",
+                        "name": "الشهادة"
+                    }
+                ]
+            },
+            "service": {
+                "title": "service",
+                "description": "Children want to learn. Our job is to help, with structured, age-appropriate educational programs that are challenging. And fun. We offer many services in Discovery Academy as follows:",
+                "details": [
+                    {
+                        "title": "رؤيتنا",
+                        "image": "vission.png",
+                        "description": "إنشاء شبكة محلية من أكاديميات التعلم الناجحة التي تزود الأجيال الجديدة ببرامج مبتكرة جذابة في الهندسة والعلوم والتكنولوجيا والرياضيات."
+                    },
+                    {
+                        "title": "مهمتنا",
+                        "image": "mission.png",
+                        "description": "نحن نعمل على تمكين الأجيال الشابة من استكشاف مفاهيم الهندسة والتكنولوجيا والعلوم والرياضيات بشكل طبيعي، بطريقة جذابة وممتعة وبيئة آمنة ومريحة لمساعدتهم على إظهار مواهبهم وتطوير قدراتهم في تلك المجالات."
+                    },
+                    {
+                        "title": "رؤيتنا",
+                        "image": "vission.png",
+                        "description": "إنشاء شبكة محلية من أكاديميات التعلم الناجحة التي تزود الأجيال الجديدة ببرامج مبتكرة جذابة في الهندسة والعلوم والتكنولوجيا والرياضيات."
+                    },
+                    {
+                        "title": "مهمتنا",
+                        "image": "mission.png",
+                        "description": "نحن نعمل على تمكين الأجيال الشابة من استكشاف مفاهيم الهندسة والتكنولوجيا والعلوم والرياضيات بشكل طبيعي، بطريقة جذابة وممتعة وبيئة آمنة ومريحة لمساعدتهم على إظهار مواهبهم وتطوير قدراتهم في تلك المجالات."
+                    }
+                ]
+            }
+        },
+        "courses": {
+            "title_home":"دوراتنا",
+            "title": "الدورات",
+            "description": "click on any course to more details...",
+            "btn_card": "more details",
+            "btn_home": "جميع الدورات",
+            "details": [
+                {
+                    "id": "0",
+                    "name": "programming for pre-readers",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    }
+                },
+                {
+                    "id": "1",
+                    "name": "programming and AI",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    }
+                },
+                {
+                    "id": "0",
+                    "name": "programming for pre-readers",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    }
+                },
+                {
+                    "id": "1",
+                    "name": "programming and AI",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    }
+                }
+            ]
+        },
+        "details_courses": [
+            {
+                "id": "1",
+                "name": "programming for pre-readers",
+                "image": "",
+                "details": [
+                    {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    },
+                    {
+                        "icon": "far fa-calendar-alt",
+                        "data": "date",
+                        "info": "session/per week"
+                    },
+                    {
+                        "icon": "far fa-clock",
+                        "data": "time",
+                        "info": "1.30 hour"
+                    },
+                    {
+                        "icon": "fas fa-tools",
+                        "data": "tools",
+                        "info": "laptop/taplet/win/mac"
+                    }
+                ],
+                "leaning_objectives": {
+                    "name": "objectives",
+                    "title": "by the end of this course the student will learn :",
+                    "lists": [
+                        {
+                            "list": "ماهى البرمجة وكيف اتعلم البرمجة"
+                        },
+                        {
+                            "list": "the basic of programming  (sequence,Algorithms, loops, event,bug ,debuging) by using puzzles and simple ways."
+                        },
+                        {
+                            "list": "create their own games, stories."
+                        },
+                        {
+                            "list": "how to use computer and internet safely."
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2",
+                "name": "programming and AI",
+                "image": "",
+                "details": [
+                    {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    },
+                    {
+                        "icon": "far fa-calendar-alt",
+                        "data": "date",
+                        "info": "session/per week"
+                    },
+                    {
+                        "icon": "far fa-clock",
+                        "data": "time",
+                        "info": "1.30 hour"
+                    },
+                    {
+                        "icon": "fas fa-tools",
+                        "data": "tools",
+                        "info": "laptop/(win,mac)"
+                    }
+                ],
+                "leaning_objectives": {
+                    "name": "objectives",
+                    "title": "by the end of this course the student will learn :",
+                    "lists": [
+                        {
+                            "list": "what is computer language ,how it work."
+                        },
+                        {
+                            "list": "the basic of programming  (sequence,Algorithms, loops, event,function,bug ,debuging)"
+                        },
+                        {
+                            "list": "train students how to solv e problems using problem solving cases."
+                        },
+                        {
+                            "list": "create more than 8 games and stories using progamming."
+                        },
+                        {
+                            "list": "learn models of AI with simple ways",
+                            "details_list": [
+                                {
+                                    "text": "Computer Vision"
+                                },
+                                {
+                                    "text": "Face Recognition Model"
+                                },
+                                {
+                                    "text": "Hand  Detection Model"
+                                },
+                                {
+                                    "text": "Object Detection Model"
+                                },
+                                {
+                                    "text": "Machine & Deep Learning Algorithms"
+                                }
+                            ]
+                        },
+                        {
+                            "list": "know how AI change our lifes."
+                        },
+                        {
+                            "list": "create more than 4 projects using AI models."
+                        },
+                        {
+                            "list": "convert his idea to coding."
+                        }
+                    ]
+                }
+            }
+        ],
+        "gallery": {
+            "title": "gallery",
+            "title_images": "images",
+            "title_videos": "videos",
+            "category": [
+                {
+                    "name": "all"
+                },
+                {
+                    "name": "works"
+                },
+                {
+                    "name": "Certificate"
+                }
+            ],
+            "caption":[
+                {"img":"c-1.jpg"},
+                {"img":"c-2.jpg"},
+                {"img":"c-3.jpg"},
+                {"img":"c-4.jpg"},
+                {"img":"c-5.jpg"},
+                {"img":"c-6.jpg"},
+                {"img":"c-7.jpg"},
+                {"img":"c-9.jpg"}
+            ],
+            "images": [
+                {
+                    "id": "1",
+                    "img": "1.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "2",
+                    "img": "2.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "3",
+                    "img": "3.jpg",
+                    "category": [
+                        {"name":"Certificate"},
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "4",
+                    "img": "4.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "5",
+                    "img": "5.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "6",
+                    "img": "6.jpg",
+                    "category": [
+                        {"name":"Certificate"},
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "7",
+                    "img": "7.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "8",
+                    "img": "8.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "9",
+                    "img": "9.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                }
+            ],
+            "videos": [
+                {
+                    "video": "1.mp4"
+                },
+                {
+                    "video": "2.mp4"
+                },
+                {
+                    "video": "3.mp4"
+                },
+                {
+                    "video": "4.mp4"
+                },
+                {
+                    "video": "5.mp4"
+                },
+                {
+                    "video": "6.mp4"
+                }
+            ]
+        }
+    }
+}

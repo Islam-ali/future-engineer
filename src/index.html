@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Future Engineer</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=IE8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    #loader{
+      height: 100%;
+      min-height: 100vh;
+      background-color: #fdfdff;
+      z-index: 9999999;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .box-img {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      left: calc(50% - 75px);
+      top: calc(50% - 75px);
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .img-loading {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50% - 25px);
+      left: calc(50% - 25px);
+      z-index: 999999;
+      animation: air infinite 1s alternate;
+    }
+
+    .box-img::before {
+      content: "";
+      width: 150px;
+      height: 150px;
+      background: url('assets/images/—Pngtree—ring\ ring\ round\ high\ tech_3775627.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      animation: circle infinite 50s linear;
+      z-index: 99999;
+    }
+    @keyframes air {
+      from {
+        transform: scale(.5,.5)
+      }
+      to {
+        transform: scale(2,2)
+      }
+
+    }
+
+    @keyframes circle {
+
+      from {
+        transform: rotate(0deg)
+      }
+
+      to {
+        transform: rotate(360deg)
+      }
+    }
+  </style>
+  <meta name="theme-color" content="#1976d2">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+</head>
+<body>
+  <div id="loader">
+    <div class="box-img">
+      <img class="img-loading" src="assets/images/logo-FE.png" alt="logo">
+    </div>
+  </div>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+
+</html>

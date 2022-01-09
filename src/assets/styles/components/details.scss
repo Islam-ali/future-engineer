@@ -1,0 +1,154 @@
+.details-course{
+    .details{
+        .container{
+            .row{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row-reverse;
+                .content-details{
+                    display: flex;
+                    width: 480px;
+                    flex-flow:wrap;
+                    padding: 0;
+                    .card-content-details{
+                        margin: 20px;
+                        width: 200px;
+                        text-align: center;
+                        background: #fff;
+                        .svg-inline--fa{
+                            font-size: 30px;
+                            color: $bg_color_1;
+                        }
+                        .p-data{
+                            color: #000;
+                            font-size: 22px;
+                            font-weight: 600;
+                            margin: 10px 0;
+                        }
+                        .p-info{
+                            color: #777;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .img-details{
+                    width: 400px;
+                    height: 400px;
+                    position: relative;
+                    overflow: hidden;
+                    img{
+                        width: 250px;
+                        position: absolute;
+                        top: 75px;
+                        left: 75px;
+                        border-radius: 50%;
+                    }
+                }
+                .img-details::before{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background: url('../../images/bg-course.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    animation: circle infinite 50s linear;
+                }
+            }
+        }
+    }
+    .objectives{
+        .container{
+            .content-objectives{
+                width: 60%;
+                ul{
+                    color: #444;
+                    font-weight: 600;
+                    li{
+                        div{
+                            ul{
+                                color: #777;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:992px) {
+    .details-course{
+        .row{
+            justify-content: center !important;
+            .img-details{
+                margin-bottom: 20px !important;
+            }
+            .content-details{
+                width: 99% !important;
+                justify-content: center;
+            }
+        }
+        .objectives{
+            .container{
+                .content-objectives{
+                    margin: 0 auto;
+                    width: 98%;
+                }
+            }
+        }
+    }
+}
+@media (max-width:576px) {
+    .details-course
+    {
+        .card-content-details{
+            width: 98% !important;
+            display: flex !important;
+            align-items: center !important;
+            margin: 0 !important;
+            flex-flow: row;
+            .svg-inline--fa{
+                font-size: 18px !important;
+                margin: 0 8px !important;
+            }
+            .p-data{
+                font-size: 18px;
+                text-align: initial;
+                width: 50% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .p-info{
+                color: #777;
+                font-weight: 600;
+                font-size: 18px;
+                text-align: initial;
+                width: 50% !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                overflow: hidden;
+                word-break: break-all;
+            }
+        }
+    }
+
+}
+@media (max-width:450px) {
+    .row{
+        .img-details{
+            width: 250px !important;
+            height: 250px !important;
+            img{
+                width: 150px !important;
+                top: 50px !important;
+                left: 50px !important;
+            }
+        }
+    }
+}

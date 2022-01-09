@@ -1,0 +1,439 @@
+{
+    "data": {
+        "home": {
+            "title": "Future Engineer",
+            "link": [
+                "home",
+                "about",
+                "courses",
+                "gallery"
+            ],
+            "description": "Discovery Academy for Science and Technology introduces kids to the fun aspects of science, technology, engineering, art and math. ready to learn more about our programs at Discovery Academy?",
+            "btn_start": "Start Here",
+            "landmarks": [
+                {
+                    "icon": "students.png",
+                    "name_mark": "CHILDREN TRAINED",
+                    "number_mark": "1000+"
+                },
+                {
+                    "icon": "growth.png",
+                    "name_mark": "STUDENT SUCCESS RATE",
+                    "number_mark": "93%"
+                },
+                {
+                    "icon": "experience.png",
+                    "name_mark": "YEARS OF EXPERIENCE",
+                    "number_mark": "3+"
+                },
+                {
+                    "icon": "stars.png",
+                    "name_mark": "RATING FROM PARENTS",
+                    "number_mark": "4.7/5.0"
+                }
+            ],
+            "includes": {
+                "pragraph": "All of the below are included at no extra cost.",
+                "title": "#1 Most Comprehensive Program for Your Student’s Success!",
+                "description": "The CodeWizardsHQ program comes with everything your child needs to be successful in learning to code.",
+                "details": [
+                    {
+                        "icon": "fas fa-calendar-check",
+                        "text": "Structured and Comprehensive Curriculum"
+                    },
+                    {
+                        "icon": "fas fa-medal",
+                        "text": "Individual Course Certification"
+                    },
+                    {
+                        "icon": "fas fa-video",
+                        "text": "Structured and Comprehensive Curriculum"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Downloadable Slides for Every Class"
+                    },
+                    {
+                        "icon": "fas fa-chalkboard-teacher",
+                        "text": "Highly Qualified and Experienced Teachers"
+                    },
+                    {
+                        "icon": "fas fa-tv",
+                        "text": "Direct Messaging with Teachers"
+                    },
+                    {
+                        "icon": "fas fa-life-ring",
+                        "text": "Daily Homework Help"
+                    },
+                    {
+                        "icon": "fas fa-tasks",
+                        "text": "Weekly Progress Report & Alerts"
+                    },
+                    {
+                        "icon": "fas fa-file-download",
+                        "text": "Downloadable Slides for Every Class"
+                    },
+                    {
+                        "icon": "fas fa-graduation-cap",
+                        "text": "Supportive Online Student Community"
+                    }
+                ]
+            }
+        },
+        "about": {
+            "title": "about",
+            "description": "Discovery Academy for Science and Technology is an educational company which seeks to build a generation capable of creativity and innovation in Science, technology, engineering, math and applied science. It helps discovering their talents and developing their abilities in this fields.",
+            "btn_more_about": "More About US",
+            "why_us": {
+                "title": "WHAT IS Future Engineer",
+                "description": "Discovery Academy for Science and Technology is an educational company which seeks to build a generation capable of creativity and innovation in Science, technology, engineering, math and applied science. It helps discovering their talents and developing their abilities in this fields.Discovery Academy for Science and Technology is an educational company which seeks to build a generation capable of creativity and innovation in Science, technology, engineering, math and applied science. It helps discovering their talents and developing their abilities in this fields"
+            },
+            "our_card": [
+                {
+                    "title": "Our Vision",
+                    "image": "vission.png",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math."
+                },
+                {
+                    "title": "Our Mission",
+                    "image": "mission.png",
+                    "description": "We work for enabling young generations to explore the concepts of engineering, technology, science, and math naturally, in a fun engaging way and a safe and convenient environment to help them showing their talents and develop their abilities in those fields."
+                }
+            ],
+            "develop_kids": {
+                "title": "HOW DO WE DEVELOP KIDS?",
+                "details": [
+                    {
+                        "icon": "teacher.png",
+                        "name": "Lectures"
+                    },
+                    {
+                        "icon": "approve.png",
+                        "name": "Assignments"
+                    },
+                    {
+                        "icon": "quizzes.png",
+                        "name": "Quizzes"
+                    },
+                    {
+                        "icon": "certificate.png",
+                        "name": "Certificate"
+                    }
+                ]
+            },
+            "service": {
+                "title": "service",
+                "description": "Children want to learn. Our job is to help, with structured, age-appropriate educational programs that are challenging. And fun. We offer many services in Discovery Academy as follows:",
+                "details": [
+                    {
+                        "title": "Our Vision",
+                        "image": "vission.png",
+                        "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math."
+                    },
+                    {
+                        "title": "Our Mission",
+                        "image": "mission.png",
+                        "description": "We work for enabling young generations to explore the concepts of engineering, technology, science, and math naturally, in a fun engaging way and a safe and convenient environment to help them showing their talents and develop their abilities in those fields."
+                    },
+                    {
+                        "title": "Our Vision",
+                        "image": "vission.png",
+                        "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math."
+                    },
+                    {
+                        "title": "Our Mission",
+                        "image": "mission.png",
+                        "description": "We work for enabling young generations to explore the concepts of engineering, technology, science, and math naturally, in a fun engaging way and a safe and convenient environment to help them showing their talents and develop their abilities in those fields."
+                    }
+                ]
+            }
+        },
+        "courses": {
+            "title_home":"OUR COURSES",
+            "title": "courses",
+            "description": "click on any course to more details...",
+            "btn_card": "more details",
+            "btn_home": "all courses",
+            "details": [
+                {
+                    "id": "0",
+                    "name": "programming for pre-readers",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    }
+                },
+                {
+                    "id": "1",
+                    "name": "programming and AI",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    }
+                },
+                {
+                    "id": "0",
+                    "name": "programming for pre-readers",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    }
+                },
+                {
+                    "id": "1",
+                    "name": "programming and AI",
+                    "image": "",
+                    "description": "To create a local network of successful learning academies providing new generations with engaging innovative programs in Engineering, Science, Technology and Math.",
+                    "duration": {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    }
+                }
+            ]
+        },
+        "details_courses": [
+            {
+                "id": "1",
+                "name": "programming for pre-readers",
+                "image": "",
+                "details": [
+                    {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "9 sessions"
+                    },
+                    {
+                        "icon": "far fa-calendar-alt",
+                        "data": "date",
+                        "info": "session/per week"
+                    },
+                    {
+                        "icon": "far fa-clock",
+                        "data": "time",
+                        "info": "1.30 hour"
+                    },
+                    {
+                        "icon": "fas fa-tools",
+                        "data": "tools",
+                        "info": "laptop/taplet/win/mac"
+                    }
+                ],
+                "leaning_objectives": {
+                    "name": "objectives",
+                    "title": "by the end of this course the student will learn :",
+                    "lists": [
+                        {
+                            "list": "what is computer language ,how it work."
+                        },
+                        {
+                            "list": "the basic of programming  (sequence,Algorithms, loops, event,bug ,debuging) by using puzzles and simple ways."
+                        },
+                        {
+                            "list": "create their own games, stories."
+                        },
+                        {
+                            "list": "how to use computer and internet safely."
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2",
+                "name": "programming and AI",
+                "image": "",
+                "details": [
+                    {
+                        "icon": "fas fa-hourglass-half",
+                        "data": "duration",
+                        "info": "12 sessions"
+                    },
+                    {
+                        "icon": "far fa-calendar-alt",
+                        "data": "date",
+                        "info": "session/per week"
+                    },
+                    {
+                        "icon": "far fa-clock",
+                        "data": "time",
+                        "info": "1.30 hour"
+                    },
+                    {
+                        "icon": "fas fa-tools",
+                        "data": "tools",
+                        "info": "laptop/(win,mac)"
+                    }
+                ],
+                "leaning_objectives": {
+                    "name": "objectives",
+                    "title": "by the end of this course the student will learn :",
+                    "lists": [
+                        {
+                            "list": "what is computer language ,how it work."
+                        },
+                        {
+                            "list": "the basic of programming  (sequence,Algorithms, loops, event,function,bug ,debuging)"
+                        },
+                        {
+                            "list": "train students how to solv e problems using problem solving cases."
+                        },
+                        {
+                            "list": "create more than 8 games and stories using progamming."
+                        },
+                        {
+                            "list": "learn models of AI with simple ways",
+                            "details_list": [
+                                {
+                                    "text": "Computer Vision"
+                                },
+                                {
+                                    "text": "Face Recognition Model"
+                                },
+                                {
+                                    "text": "Hand  Detection Model"
+                                },
+                                {
+                                    "text": "Object Detection Model"
+                                },
+                                {
+                                    "text": "Machine & Deep Learning Algorithms"
+                                }
+                            ]
+                        },
+                        {
+                            "list": "know how AI change our lifes."
+                        },
+                        {
+                            "list": "create more than 4 projects using AI models."
+                        },
+                        {
+                            "list": "convert his idea to coding."
+                        }
+                    ]
+                }
+            }
+        ],
+        "gallery": {
+            "title": "gallery",
+            "title_images": "images",
+            "title_videos": "videos",
+            "category": [
+                {
+                    "name": "all"
+                },
+                {
+                    "name": "works"
+                },
+                {
+                    "name": "Certificate"
+                }
+            ],
+            "caption":[
+                {"img":"c-1.jpg"},
+                {"img":"c-2.jpg"},
+                {"img":"c-3.jpg"},
+                {"img":"c-4.jpg"},
+                {"img":"c-5.jpg"},
+                {"img":"c-6.jpg"},
+                {"img":"c-7.jpg"},
+                {"img":"c-9.jpg"}
+            ],
+            "images": [
+                {
+                    "id": "1",
+                    "img": "1.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "2",
+                    "img": "2.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "3",
+                    "img": "3.jpg",
+                    "category": [
+                        {"name":"Certificate"},
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "4",
+                    "img": "4.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "5",
+                    "img": "5.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "6",
+                    "img": "6.jpg",
+                    "category": [
+                        {"name":"Certificate"},
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "7",
+                    "img": "7.jpg",
+                    "category": [
+                        {"name":"works"}
+                    ]
+                },
+                {
+                    "id": "8",
+                    "img": "8.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                },
+                {
+                    "id": "9",
+                    "img": "9.jpg",
+                    "category": [
+                        {"name":"Certificate"}
+                    ]
+                }
+            ],
+            "videos": [
+                {
+                    "video": "1.mp4"
+                },
+                {
+                    "video": "2.mp4"
+                },
+                {
+                    "video": "3.mp4"
+                },
+                {
+                    "video": "4.mp4"
+                },
+                {
+                    "video": "5.mp4"
+                },
+                {
+                    "video": "6.mp4"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,150 @@
+@import '../variables/variables.scss';
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 99;
+    height: 70px;
+    box-shadow: 1px 1px 20px rgba($bg_color_1, $alpha: .6);
+
+    .navbar{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        .container{
+            .navbar-brand{
+                img{
+                    width: 60px;
+                    border-radius: 50%;
+                }
+            }
+            .btn-menu{
+                border: none;
+                background: none;
+                display: none;
+                cursor: pointer;
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            color: #fff;
+                            width: max-content;
+                        }
+                        .nav-link:hover{
+                            color: #ccc;
+                        }
+                    }
+                }
+            }
+            .lang{
+                padding: 0 40px 0 0;
+                a{
+                    padding: 5px 10px;
+                    border-radius: 4px;
+                    box-shadow: #aaa 1px 1px 5px;
+                    cursor: pointer;
+                }
+                a:hover{
+                    background: rgba($bg_color_1, $alpha: .9);
+                }
+            }
+        }
+    }
+}
+#box-contact
+{
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $bg_color_1;
+    z-index: 99999;
+    display: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px $bg_color_1;
+    a{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        .svg-inline--fa{
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+}
+@media (max-width:992px) {
+    header{
+        .navbar{
+            .container{
+                .btn-menu{
+                    display: block;
+                }
+                .navbar-collapse{
+                    padding-top: 20px;
+                    width: 300px;
+                    background-color: rgba($bg_color_1, $alpha: .9);
+                    position: fixed;
+                    top: 0;
+                    right: -300px;
+                    height: 100vh;
+                    min-height: max-content;
+                    overflow-y: auto;
+                    box-shadow: 1px 1px 20px rgba($bg_color_1, $alpha: .4);
+                    .btn-close-menu{
+                        position: absolute;
+                        left: 0px;
+                        background-color: #fff;
+                        color: $bg_color_1;
+                        width: 30px;
+                        text-align: center;
+                        border-radius: 0 5px 5px 0;
+                    }
+                    .navbar-nav{
+                        width: 100%;
+                        padding: 0;
+                        .nav-item{
+                            width: 100%;
+                            margin-bottom: 10px;
+                            .nav-link{
+                                color: #fff;
+                                width: max-content;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+                .show{
+                    right: 0;
+                }
+                .lang{
+                    width: max-content;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    header{
+        .navbar{
+            background: rgba($bg_color_1, $alpha: .5);
+            .container{
+                .navbar-collapse{
+                    width: 80%;
+                    right: -80%;
+                }
+                .show{
+                    right: 0;
+                }
+            }
+        }
+    }
+}

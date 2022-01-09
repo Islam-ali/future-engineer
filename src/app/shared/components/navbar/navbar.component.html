@@ -1,0 +1,31 @@
+<header id="header">
+  <nav class="navbar navbar-expand-lg navbar-dark animate__animated animate__fadeInDown">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/home">
+        <img src="../../../../assets/images/logo-FE.png" alt="logo">
+      </a>
+      <button (click)="open_menu()" class="btn-menu">
+        <i style="color: #fff;" class="fas fa-bars"></i>
+      </button>
+      <div class="navbar-collapse" [class]="toggle ? 'show':''">
+        <span (click)="close_menu()" class="btn-menu btn-close-menu">
+          <i class="fas fa-times"></i>
+        </span>
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item" *ngFor="let link of links?.link; index as i">
+            <a class="nav-link" style="width: max-content;"[routerLink]="rLink[i]" routerLinkActive="active">{{link | titlecase}}</a>
+          </li>
+        </ul>
+        <div class="lang">
+          <a *ngIf="lang.value == 'ar'" (click)="changeCurrentLang('en')">English</a>
+          <a *ngIf="lang.value == 'en'" (click)="changeCurrentLang('ar')">العربية</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="box-contact" class=" animate__animated  animate__fadeInUp">
+  <a href="">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>

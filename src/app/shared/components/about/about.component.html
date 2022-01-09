@@ -1,0 +1,58 @@
+<section class="About">
+    <app-header [title]="data?.title"></app-header>
+    <section class="why-us py-5">
+        <div class="container">
+            <div class="content">
+                <h3 class=" i-h3 i-border-bottom-h wow animate__animated animate__pulse ">{{'data.about.why_us.title' | translate}}</h3>
+                <p class="wow animate__animated animate__fadeInUp">{{'data.about.why_us.description' | translate}}</p>
+            </div>
+        </div>
+    </section>
+    <section class="our-cards py-5">
+        <div class="container">
+            <div class="container-card">
+                <div class="row">
+                    <div class="i-card card-our-cards i-box-shadow wow animate__animated animate__fadeInUp" *ngFor="let item of data?.our_card">
+                        <img [src]="'../../../../assets/images/'+item.image" alt="">
+                        <h4>{{item.title}}</h4>
+                        <p>{{item.description}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="develop-kids py-5">
+        <h3 class="i-h3 i-border-bottom-h wow animate__animated animate__pulse">{{'data.about.develop_kids.title' | translate}}</h3>
+        <div class="bg-develop-kids position-relative ">
+            <div class="i-wave-top">
+                <div class="wave"></div>
+              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="card-develop-kids wow animate__animated  animate__zoomIn" *ngFor="let item of data?.develop_kids.details">
+                        <img [src]="'../../../../assets/images/'+item.icon" alt="">
+                        <p>{{item.name}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="i-wave-bottom">
+                <div class="wave"></div>
+              </div>
+        </div>
+    </section>
+    <section class="services py-5">
+        <div class="container">
+            <div class="header-service">
+                <h3 class="i-h3 i-border-bottom-h wow animate__animated animate__pulse">{{'data.about.service.title' | translate}}</h3>
+                <p class=" wow animate__animated  animate__fadeInUp">{{'data.about.service.description' | translate}}</p>
+            </div>
+            <div class="row">
+                <div class="card-service i-card  wow animate__animated  animate__zoomIn" *ngFor="let item of data?.service.details">
+                    <img [src]="'../../../../assets/images/'+item.image" [alt]="item.image">
+                    <h4>{{item.title}}</h4>
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

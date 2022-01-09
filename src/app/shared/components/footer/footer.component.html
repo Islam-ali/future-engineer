@@ -1,0 +1,41 @@
+<!-- Footer -->
+  <footer class="pt-5">
+    <div class="i-wave-top">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center-width-768">
+            <div class="logo">
+                <img src="../../../../assets/images/logo-FE.png" alt="logo">
+            </div>
+          </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-center-width-768">
+          <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+          <p class="font-italic i-p-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center-width-768">
+          <h6 class="text-uppercase font-weight-bold mb-4">Links</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2" *ngFor="let item of rLink" ><a [routerLink]="item" class="i-p-color">{{item}}</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0 text-center-width-768">
+          <h6 class="text-uppercase font-weight-bold mb-4">Social Media</h6>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-twitter fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-vimeo fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="py-3 border-top">
+      <div class="container text-center">
+        <p class="i-p-color mb-0 py-2">© 2021 future engineer All rights reserved.</p>
+      </div>
+    </div>
+  </footer> 
+  <!-- End -->

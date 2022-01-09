@@ -1,0 +1,63 @@
+<section class="home">
+    <div class="cover">
+        <div class="container">
+            <div class="content-cover">
+                <h1 class="wow animate__animated  animate__zoomIn i-delay-3ms">{{'data.home.title' | translate}}</h1>
+                <p class="wow animate__animated  animate__fadeIn  i-delay-5ms">{{'data.home.description' | translate}}</p>
+                <button class="i-btn wow animate__animated  animate__fadeInUp i-delay-5ms">{{'data.home.btn_start' | translate}}</button>
+            </div>
+        </div>
+    </div>
+    <section class="landmarks">
+        <div class="container">
+            <div class="row">
+                <div  *ngFor="let landmark of data?.landmarks;index as index" class="card-landmark i-card i-card-hover wow animate__animated  animate__fadeInUp">
+                    <img [src]="'../../../../assets/images/'+landmark.icon" [alt]="landmark.icon">
+                    <span>{{landmark.number_mark}}</span>
+                    <p class="name_mark">{{landmark.name_mark}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-about">
+        <div class="container">
+            <div class="row">
+                <div class="content-home-about wow animate__animated animate__fadeInUp">
+                    <h2>{{'data.home.title' | translate}}</h2>
+                    <p>{{'data.about.description' | translate}}</p>
+                    <button class="i-btn i-btn-basic mb-4" routerLink="/about">{{'data.about.btn_more_about' | translate}}</button>
+                </div>
+                <div class="img">
+                    <img class="img-home-about wow animate__animated  animate__zoomIn "  src="../../../../assets/images/logo-FE.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <app-banar></app-banar>
+    </section>
+    <section class="home-courses py-5">
+        <div class="text-center w-100 overflow-hidden">
+            <h3 class="i-h3 i-border-bottom-h wow animate__animated animate__pulse">{{'data.courses.title_home' | translate | titlecase}}</h3>
+        </div>
+        <app-all-courses [n]="3"></app-all-courses>
+        <div class="text-center p-3">
+            <button class="i-btn i-btn-basic">{{'data.courses.btn_home' | translate | titlecase}}</button>
+        </div>
+    </section>
+    <section class="includes py-5">
+        <div class="container">
+            <div class="row">
+                <div class="header-icludes my-4 wow animate__animated  animate__fadeInUp">
+                    <h2>{{'data.home.includes.title' | translate | titlecase}}</h2>
+                    <p>{{'data.home.includes.description' | translate | titlecase}}</p>
+                    <span>{{'data.home.includes.pragraph' | translate | titlecase}}</span>
+                </div>
+                <div class="card-includes i-card wow animate__animated  animate__fadeInUp" *ngFor="let include of data?.includes?.details">
+                    <i [class]="include.icon" class="fa-2x"></i>
+                    <span>{{include.text | titlecase}}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
